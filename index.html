@@ -9,11 +9,178 @@
 	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
 <body>
-<!-- BEGIN  out-->
-<div class="out">
-
+<!-- wrapper -->
+<div class="wrapper">
+	<!-- header -->
+	<header class="header">
+		<div class="l-center">
+			<a class="header__logo" href="#"></a>
+			<div class="header__info">Популярный ресторан мая 2014: <a href="#">Sixty</a></div>
+		</div>
+	</header>
+	<!-- places -->
+	<div class="places">
+		<a class="places__item places__item_novikov" href="#">
+			<div class="places__counter">20</div>
+			<div class="places__in">
+				<div class="places__logo"></div>
+			</div>
+		</a>
+		<a class="places__item places__item_ginza" href="#">
+			<div class="places__counter">55</div>
+			<div class="places__in">
+				<div class="places__logo"></div>
+			</div>
+		</a>
+		<a class="places__item places__item_pop" href="#">
+			<div class="places__counter">11</div>
+			<div class="places__in">
+				<div class="places__logo"></div>
+				<div class="places__title">Самые популярные</div>
+			</div>
+		</a>
+		<a class="places__item places__item_window" href="#">
+			<div class="places__counter">77</div>
+			<div class="places__in">
+				<div class="places__logo"></div>
+				<div class="places__title">Лучший вид из окна</div>
+			</div>
+		</a>
+	</div>
+	<!-- slider -->
+	<div class="slider" style="background-image: url(img/bg-slider-1.jpg)">
+		<div class="l-center l-center_small">
+			<div class="slider__in">
+				<button class="slider__prev"></button>
+				<button class="slider__next"></button>
+				<div class="slider__list cycle-slideshow"
+					data-cycle-fx="scrollHorz"
+					data-cycle-timeout="0"
+					data-cycle-slides=".slider__item"
+					data-cycle-prev=".slider__prev"
+					data-cycle-next=".slider__next"
+					data-cycle-load="wait">
+					<div class="slider__item">
+						<img src="http://lorempixel.com/600/400/nature" alt="">
+					</div>
+					<div class="slider__item">
+						<img src="http://lorempixel.com/600/400/nature" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- center -->
+	<div class="l-center l-center_small">
+		<!-- card -->
+		<div class="card cycle-slideshow"
+			data-cycle-fx="fade"
+			data-cycle-timeout="0"
+			data-cycle-slides=".card__item"
+			data-cycle-prev=".slider__prev"
+			data-cycle-next=".slider__next"
+			data-cycle-load="wait"
+			data-cycle-auto-height="container">
+			<div class="card__item">
+				<div class="card__head">
+					<div class="card__like"><span>14</span><button></button></div>
+					<div class="card__title">
+						<div class="card__title-in"><a href="#">The Сад</a></div>
+						<div class="card__type">Ресторан авторской кухни</div>
+					</div>
+				</div>
+				<div class="card__text">Заведение стало успешным совместным проектом И. Урганта, А. Цекало и Ginza Project. Самой яркой характеристикой, делающей ресторан особенным, является кухня и оформление интерьера. Благодаря руководству шефа А. Кетгласа заведение приобрело свое собственное, авторское меню.</div>
+				<div class="card__info">
+					<div class="card__detail">
+						<!-- info -->
+						<div class="info">
+							<div class="info__ico">
+								<i class="info__address"></i>
+							</div>
+							<div class="info__in">
+								<div class="info__text">Пресненская наб., 12, 62 этаж</div>
+								<div class="info__metro"><i style="background-color: #7f3a93;"></i><span>Полежаевская</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="card__detail">
+						<!-- info -->
+						<div class="info">
+							<div class="info__ico">
+								<i class="info__bill"></i>
+							</div>
+							<div class="info__in">
+								<div class="info__text">Средний счет:</div>
+								<div class="info__text">1500 руб.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card__item">
+				<div class="card__head">
+					<div class="card__like"><span>14</span><button></button></div>
+					<div class="card__title">
+						<div class="card__title-in"><a href="#">The Сад</a></div>
+						<div class="card__type">Ресторан авторской кухни</div>
+					</div>
+				</div>
+				<div class="card__text">Заведение стало успешным совместным проектом И. Урганта, А. Цекало и Ginza Project.</div>
+				<div class="card__info">
+					<div class="card__detail">
+						<!-- info -->
+						<div class="info">
+							<div class="info__ico">
+								<i class="info__address"></i>
+							</div>
+							<div class="info__in">
+								<div class="info__text">Пресненская наб., 12, 62 этаж</div>
+								<div class="info__metro"><i style="background-color: #7f3a93;"></i><span>Полежаевская</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="card__detail">
+						<!-- info -->
+						<div class="info">
+							<div class="info__ico">
+								<i class="info__bill"></i>
+							</div>
+							<div class="info__in">
+								<div class="info__text">Средний счет:</div>
+								<div class="info__text">1500 руб.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- gettable -->
+	<div class="gettable">
+		<div class="l-center">
+			<span class="gettable__title">Заказ столиков происходит через</span>
+			<a class="gettable__logo" href="#"></a>
+		</div>
+	</div>
+	<!-- center -->
+	<div class="l-center">
+		<!-- share -->
+		<div class="share">
+			<div class="share__title">Лайкни если хочется:</div>
+			<div class="share__in"><img src="img/share.jpg" alt=""></div>
+		</div>
+	</div>
+	<!-- footer -->
+	<footer class="footer">
+		<div class="l-center">
+			<div class="footer__links">
+				<a href="#">Главная</a>
+				<a href="#">Свяжитесь с нами</a>
+			</div>
+			<div class="footer__copyrigth">© PrimeResto.ru 2014</div>
+		</div>
+	</footer>
 </div>
-<!-- END out-->
 <!-- load scripts -->
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
 </body>
